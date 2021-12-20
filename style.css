@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    font-size: 3em;
+    
+    
+    
+}
+
+div{
+    height: 100%;
+    width: 100%;
+    background: rgb(20, 44, 42);
+    align-content: justify;
+    
+}
+.container{
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    
+    
+    
+}
+.row{
+    
+    height: 30%;
+    width: 100%;
+    color: floralwhite;
+    grid-row:auto;
+    row-gap: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 26px;
+    font-family: fantasy;
+        animation-duration: 2s;
+        animation-name: aparecer;
+        animation-iteration-count: infinite;
+       }
+       @keyframes aparecer {
+        0% {
+        opacity: 0;
+        }
+        100% {
+        opacity: 1;
+        }
+       }
+
+p{
+    text-align: justify;
+    font-size: 15px;
+}
+footer{
+    padding: 30px;
+    
+    height: 30px;
+    align-content: center;
+    background:rgb(12, 134, 126) ;
+}
+h3{
+    color:#fff;
+    font-size: 20px;
+    font-family: serif;
+    text-align: center;
+}
